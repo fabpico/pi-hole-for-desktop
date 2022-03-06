@@ -1,6 +1,7 @@
 {
   "scripts": {
     "start": "docker-compose up -d",
-    "stop": "docker-compose down"
+    "stop": "docker-compose down",
+    "restart": "yarn stop && yarn start"
   }
 }
